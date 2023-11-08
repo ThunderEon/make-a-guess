@@ -29,7 +29,7 @@ function userGuess() {
     } else if (diffrence < 0) {
       result.textContent = "too short";
     } else {
-      alert(`you win the game\nCorrect Number Was ${input.value}`);
+      alert(`you won the game\nCorrect Number Was ${input.value}`);
       result.innerHTML = "you think your guess is right?";
       window.location.reload();
     }
